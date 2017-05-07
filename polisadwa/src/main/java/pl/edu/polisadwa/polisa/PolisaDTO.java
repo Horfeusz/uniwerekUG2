@@ -2,6 +2,9 @@ package pl.edu.polisadwa.polisa;
 
 import java.math.BigDecimal;
 import java.sql.Date;
+import java.util.List;
+
+import pl.edu.polisadwa.ryzyko.RyzykoDTO;
 
 public class PolisaDTO {
 
@@ -14,6 +17,8 @@ public class PolisaDTO {
 	private Date dataDo;
 
 	private BigDecimal skladka;
+	
+	private List<RyzykoDTO> ryzyka;
 
 	public Integer getId() {
 		return id;
@@ -53,6 +58,14 @@ public class PolisaDTO {
 
 	public void setSkladka(BigDecimal skladka) {
 		this.skladka = skladka;
+	}
+
+	public List<RyzykoDTO> getRyzyka() {
+		return ryzyka;
+	}
+
+	public void setRyzyka(List<RyzykoDTO> ryzyka) {
+		this.ryzyka = ryzyka;
 	}
 
 	@Override
