@@ -38,5 +38,11 @@
 			<artifactId>guava</artifactId>
 			<version>21.0</version>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.joda/joda-money -->
+		<dependency>
+			<groupId>org.joda</groupId>
+			<artifactId>joda-money</artifactId>
+			<version>0.12</version>
+		</dependency>
 	</dependencies>
 </project>
